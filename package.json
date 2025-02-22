@@ -1,0 +1,18 @@
+{
+  "name": "moment4-grafiska.effekter",
+  "version": "1.0.0",
+  "author": "thne1900",
+  "license": "ISC",
+  "source": "src/index.html",
+  "browserslist": ">0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel --open chrome",
+    "build": "parcel build"
+  },
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3",
+    "sharp": "^0.33.5"
+  }
+}
