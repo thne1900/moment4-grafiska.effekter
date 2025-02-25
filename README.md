@@ -4,4 +4,5 @@
 - Började med min grundstruktur på filer som även användes i moment 1,2 och 3. 
 - Gjorde ett repo till GitHub. 
 - Testkörde så att alla filer funkade och att det gick att synka till Netlify för publicering. 
-- Lade till de filerna som behövdes inför detta moment, en ny undersida och en ny partial. 
+- Lade till de filerna som behövdes inför detta moment, en ny undersida och en ny partial (som lades i main.scss).
+- Valde att göra första amimationen på en knapp, som ändrade färg och storlek. 
