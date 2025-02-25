@@ -28,7 +28,16 @@
     <div class="grid-container"><!--Div element with a grid container.-->
         <h1 class="h1anime">Animeringar:</h1>
         <button id="click-button" type="button">Klicka här</button>
-    
+        <div id="image-con">
+        <picture class="image3"><!--Pictures elements containing different image formats on the website's images-->
+            <source srcset="./images/sommar.jpeg?as=avif" type="image/avif">
+            <source srcset="./images/sommar.jpeg?as=webp" type="image/webp">
+            <source srcset="./images/sommar.jpeg?"type="image/jpeg">
+            <img id="sommar" src="./images/sommar.jpeg?" alt="Liten flicka sträcker sig efter en blomma i gräset.">
+        </picture>
+        <div id="over-lay"></div>
+        </div>
+      
     <footer class="footer3">
     <p><strong>DT211G-Frontend-baserad webbutveckling</strong></p>
     <p>Moment 3: CSS-preprocessorer</p>

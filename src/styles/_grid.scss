@@ -38,13 +38,15 @@ $ma-bot: 10%;
   @extend.image1;
 }
 
+#image-con {grid-area:4/2/5/2;}
+
 .footer1{
     grid-area:4/1/5/4;
 }
 .footer2{
     grid-area:4/1/5/4;
 }
-.footer3 {grid-area: 4/1/5/4;}
+.footer3 {grid-area: 5/1/6/4;}
 
 /*Media rule for breaking point at 1024px, the elements get other placements.*/
 @media (max-width:1024px) {

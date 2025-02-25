@@ -108,6 +108,44 @@ a:hover {
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
+
+#image-con {
+    width:300px;
+    position:relative;
+    margin: 4% auto;
+    transition: 1s ease;
+}
+
+#sommar {width:100%;
+height:auto;
+border:none;
+border-radius: none;}
+
+#over-lay{
+width:100%;
+height:auto;
+margin: 0;
+background-color: pink;
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+opacity: 0;
+transition: 0.5s ease;
+}
+
+#image-con:hover {
+    cursor: pointer;
+    width:350px;
+    height:auto;
+    border:4px solid white;
+    box-shadow: 8px 8px 12px rgba(0,0,0,5.0);
+}
+
+#over-lay:hover {
+    opacity: 0.5;
+}
    
 footer {
     background-color:$dark-color; 
