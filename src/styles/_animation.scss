@@ -13,3 +13,24 @@ font-size:1.6em;
         font-size:1.8em;
     }
 }
+
+@keyframes bgImage {
+    from{
+        background-size: 100%;
+        border:2px solid white;
+    }
+    to{
+        background-size: 120%;
+        border:10px solid white;
+    }
+}
+
+@keyframes birdFly {
+    from {
+        transform: translateX(500px) translateY(-300px);
+    }
+
+to {
+    transform: translateX(100vw) translateY(0);
+}
+}

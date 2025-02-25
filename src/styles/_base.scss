@@ -95,6 +95,34 @@ a:hover {
     margin:6px;
 }
 
+#bg-image {
+    max-width:1512px;
+    height:300px;
+    background-image: url(../images/landskap.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    animation-name: bgImage;
+    animation-delay: 2s;
+    animation-duration: 6s;
+    animation-duration: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#bird {position:absolute;
+width:200px;
+height: 150px;
+background-image: url(../images/dove-9937_128.gif);
+background-size: contain;
+background-repeat: no-repeat;
+animation-name: birdFly;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-duration: linear;
+transition: 3s ease;}
+
 #click-button {
     width:80%;
     height:auto;
