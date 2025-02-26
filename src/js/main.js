@@ -7,3 +7,8 @@ document.getElementById("menu-hamburger").addEventListener("click",function(){
 
 });
 
+document.getElementById("click-button").addEventListener("click", function(){
+const messageText=document.getElementById("message");
+
+messageText.classList.toggle("notShown");
+});

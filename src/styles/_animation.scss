@@ -27,10 +27,19 @@ font-size:1.6em;
 
 @keyframes birdFly {
     from {
-        transform: translateX(500px) translateY(-300px);
+        transform: translate(500px,-300px);
     }
 
 to {
-    transform: translateX(100vw) translateY(0);
+    transform: translate(200px,-100);
 }
+}
+
+@keyframes messageVisible {
+    0% {
+        transform:rotateX(0deg);
+    }
+    100%{
+        transform:rotateX(90deg);
+    }
 }
