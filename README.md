@@ -13,6 +13,6 @@
 - Kommenterade på de filer/dokument som lagts till för detta moment, struktureade också upp koden lite mer lättläst. 
 - Testkörde och såg till så att filerna publicerades på Netlify. 
 
-# Av:thne1900
-# Kurs: Frontend-baserad webbutveckling
+### Av:thne1900
+### Kurs: Frontend-baserad webbutveckling
  
