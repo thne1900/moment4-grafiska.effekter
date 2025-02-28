@@ -10,4 +10,5 @@
 - På en bakgrundsbild gjordes effekter kring in- och utzoomning och att bildens ram också ändrades i storlek. Lade även till en gif-bild föreställande en fågel som jag utformade så att det ser ut som om den flyger fram och tillbaka över bakgrundsbilden. 
 - Gjorde också så att vid tryck på knappen så kommer en ruta upp med text. På rutan lades effekter till. 
 - Gjorde också varianter på keyframes som kunde användas i Media queries på elemeten för sidans responsivitet. 
+- Kommenterade på de animeringar
  
