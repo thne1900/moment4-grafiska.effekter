@@ -14,6 +14,22 @@ font-size:1.6em;
     }
 }
 
+@keyframes colorButtonRespons {
+    0% {
+        color: rgb(231, 92, 178);
+        font-size: 0.8em;
+    }
+    50% {
+color:rgb(113, 18, 113);
+font-size:1em;
+    }
+    100% {
+      
+        color:rgb(54, 54, 204);
+        font-size:1.2em;
+    }
+}
+
 @keyframes bgImage {
     from{
         background-size: 100%;
@@ -32,6 +48,16 @@ font-size:1.6em;
 
 to {
     transform: translate(200px,-100);
+}
+}
+
+@keyframes birdFlyRespons {
+    from {
+        transform: translate(300px,-100px);
+    }
+
+to {
+    transform: translate(100px,-50);
 }
 }
 
