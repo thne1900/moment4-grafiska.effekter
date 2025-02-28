@@ -94,7 +94,7 @@ a:hover {
     background-color: black;
     margin:6px;
 }
-
+/*Have inserted Keyframes on the header image and some properties on the animation.*/
 #bg-image {
     max-width:1512px;
     height:300px;
@@ -110,38 +110,43 @@ a:hover {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#bird {position:absolute;
-width:200px;
-height: 150px;
-background-image: url(../images/dove-9937_128.gif);
-background-size: contain;
-background-repeat: no-repeat;
-animation-name: birdFly;
-animation-duration: 7s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-animation-duration: linear;
-transition: 3s ease;}
 
-#message {margin:$mar-l;
+/*Have inserted keyframes on the image with the bird and properties for the animation.*/
+#bird {
+    position:absolute;
+    width:200px;
+    height: 150px;
+    background-image: url(../images/dove-9937_128.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: birdFly;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: linear;
+}
+
+/*Have inserted keyframes on the message box and properties on the animation.*/
+#message {
+    margin:$mar-l;
     margin:$mar-r;
     text-align: center;
-margin-top: 100px;
-padding:10%;
-margin-bottom:2%;
-font-size: 1.5em;
-border: 4px solid white;
-font-weight: bold;
-color:$primary-color;
-animation-name:messageVisible;
-animation-delay: 1s;
-animation-duration: 4s;
-animation-duration: linear;
-animation-iteration-count: infinite;
+    margin-top: 100px;
+    padding:10%;
+    margin-bottom:2%;
+    font-size: 1.5em;
+    border: 4px solid white;
+    font-weight: bold;
+    color:$primary-color;
+    animation-name:messageVisible;
+    animation-duration: 4s;
+    animation-duration: linear;
+    animation-iteration-count: infinite;
 }
 
 .notShown {display: none;}
 
+/*Have inserted keyframes on the button and some properties for the animation.*/
 #click-button {
     width:80%;
     height:auto;
@@ -154,13 +159,17 @@ animation-iteration-count: infinite;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
+
+/*When hovering over the button, some effects have been added.*/
 #click-button:hover {
     width:100%;
     height:auto;
     cursor: pointer;
     box-shadow: 8px 8px 12px rgba(0,0,0,0.5);
+    transition: 3s ease;
 }
 
+/*Container for the image where some effects have been applied.*/
 #image-con {
     width:300px;
     position:relative;
@@ -168,23 +177,26 @@ animation-iteration-count: infinite;
     transition: 1s ease;
 }
 
-#sommar {width:100%;
-height:auto;
-border:none;
-border-radius: none;}
+#sommar {
+    width:100%;
+    height:auto;
+    border:none;
+    border-radius: none;
+}
 
+/*The color effect on the image with its properties.*/
 #over-lay{
-width:100%;
-height:auto;
-margin: 0;
-background-color: pink;
-position:absolute;
-top:0;
-left:0;
-right:0;
-bottom:0;
-opacity: 0;
-transition: 0.5s ease;
+    width:100%;
+    height:auto;
+    margin: 0;
+    background-color: pink;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity: 0;
+    transition: 0.5s ease;
 }
 
 #image-con:hover {
@@ -195,6 +207,7 @@ transition: 0.5s ease;
     box-shadow: 8px 8px 12px rgba(0,0,0,5);
 }
 
+/*Effect around the opacity when hovering.*/
 #over-lay:hover {
     opacity: 0.5;
 }
@@ -205,7 +218,7 @@ footer {
     text-align: center;
     text-shadow: 2px 2px 4px white;
 }
-/*Media rule for the hamburger menu at the breakpoint of 1024px.*/
+/*Media rule for the hamburger menu and animations/effects at the breakpoint of 1024px.*/
 @media (max-width:1024px) {
         .menu-hamburger{display:flex;}
         nav ul {display: none;flex-direction: column;position:absolute; text-align: center;
@@ -217,15 +230,11 @@ footer {
         #click-button {padding:4%; animation-name: colorButtonRespons; animation-duration: 3s;
             animation-iteration-count: infinite;}
         }
+
+/*Media rule for the animations/effects at the breakpoint of 600px.*/
 @media (max-width:600px) {
     #bg-image {height:150px;}
-    #bird {position:absolute;
-        width:100px;
-        height: 75px;
-        animation-name: birdFlyRespons;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-        animation-duration: linear;}
+    #bird {position:absolute;width:100px;height: 75px;animation-name: birdFlyRespons;animation-duration: 5s;
+        animation-iteration-count: infinite;animation-direction: alternate;animation-duration: linear;}
     #message {font-size: 1.2em;}
 }
